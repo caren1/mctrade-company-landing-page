@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* offer-section */
+
+.offer-section {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 5rem 5rem 5rem; */
+    height: 100vh;
+    background-color: #041b2d;
+}
+
+.offer-section>* {
+    padding: 1rem;
+}
+
+.offer-section__introduction {
+    /* margin-top: 5rem; */
+    /* padding-top: 4rem; */
+    max-width: 60%;
+
+}
+
+.offer-section__introduction p {
+    /* width: 60%; */
+    text-align: center;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.offer-section__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offer-section__card {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border: 1px solid #e0b084;
+    align-items: center;
+    margin: 1rem;
+    background-color: #ffffff;
+}
+
+.offer-section__card-icon {
+    height: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.offer-section__card-description {
+    background-color: #e0b084;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 100%; */
+    height: 50%;
+    padding: 0.5rem;
+}
+
+.offer-section__card-description h3 {
+    color: #041b2d;
+}
+
+.offer-section__card-description a {
+    margin-top: 2rem;
+    color: #041b2d;
+}
+
+.offer-section__card-icon>img {
+    height: 5rem;
+    fill: #041b2d;
+
+}
+
+.detailed-offer {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* background: #e0b084; */
+    height: 50%;
+    border-top: 5px solid #e0b084;
+    padding: 2rem 0 2rem 0;
+}
+
+.detailed-offer__heading {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.detailed-offer__list {
+    line-height: 1.5rem;
+    display: block;
+    width: 80%;
+}
+
+.detailed-offer ul {
+    text-align: left;
+}
+
+.detailed-offer li {
+    list-style-type: square;
+    text-transform: capitalize;
+    color: #ffffff;
+    /* font-weight: bolder; */
+    font-size: 1rem;
+}
