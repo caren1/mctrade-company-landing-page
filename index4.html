@@ -129,7 +129,9 @@
 
         <div class="" id="oferta"></div>
         <section  class="offer-section">
+            
             <div data-aos="fade-in" class="offer-section__introduction">
+                
                 <h1>Oferta</h1>
                 <p>
                     Zapraszamy Państwa do zapoznania się ze szczegółami naszej oferty. Ze względu na szeroki zakres
@@ -142,6 +144,8 @@
                     Z sukcesem realizujemy projekty naszych klientów, dzięki czemu ich liczba wzrasta.
                 </p>
             </div>
+
+            
 
             <div data-aos="fade-in" class="offer-section__cards">
                 <div class="offer-section__cards-card">
@@ -182,9 +186,10 @@
                 </div>
             </div>
 
-            <div data-aos="fade-left" class="offer-section__cards-card-details ogolne">
+            <div class="offer-section__cards-card-details ogolne">
                 <div class="card-details-header">
-                    <i class="arrow left"></i>
+                    
+                    <a href="#oferta" class="close"></a>
                     <img src="/icons/023-wrench.svg" alt="wrench" />
                     <h3>Usługi Ogólnobudowlane</h3>
                 </div>
@@ -209,9 +214,10 @@
 
             <div data-aos="fade-left" class="offer-section__cards-card-details wykonczenia">
                 <div class="card-details-header">
-                    <i class="arrow left"></i>
+                
                     <img src="/icons/019-paint roller.svg" alt="roller" />
                     <h3>Wykończenia</h3>
+                    <a href="#oferta" class="close"></a>
                 </div>
                 <div class="card-details-description">
                     <ul>
@@ -233,11 +239,12 @@
                 </div>
             </div>
 
-            <div data-aos="fade-left" class="offer-section__cards-card-details konsweratorskie" style="display: none;">
+            <div data-aos="fade-left" class="offer-section__cards-card-details konsweratorskie">
                 <div class="card-details-header">
-                    <i class="arrow left"></i>
+                    
                     <img src="/icons/030-wrench.svg" alt="wrench" />
                     <h3>Prace konserwatorskie</h3>
+                    <a href="#oferta" class="close"></a>
                 </div>
                 <div class="card-details-description">
                     <ul>
@@ -251,11 +258,12 @@
                 </div>
             </div>
 
-            <div data-aos="fade-left" class="offer-section__cards-card-details fotowoltaika" style="display: none;">
+            <div class="offer-section__cards-card-details fotowoltaika">
                 <div class="card-details-header">
-                    <i class="arrow left"></i>
+                    
                     <img src="/icons/solar-panel.svg" alt="solar-panel" />
                     <h3>Fotowoltaika</h3>
+                    <a href="#oferta" class="close"></a>
                 </div>
                 <div class="card-details-description">
                     <ul>
@@ -290,17 +298,17 @@
                 <form
                     action="https://script.google.com/macros/s/AKfycbyF8urDU72mWMtR1vplTPb8JX8dbGwymxeF-EXoFc8DJac_ZyY/exec"
                     class="gform contact-form" id="contactForm" method="POST" data-email="kontakt@mc-trade.pl">
-                    <!-- <label for="fname">Imię</label> -->
+                
                     <input type="text" id="fname" name="fname" placeholder="Imię" required>
-                    <!-- <label for="lname">Nazwisko</label> -->
+                    
                     <input type="text" id="lname" name="lname" placeholder="Nazwisko" required>
-                    <!-- <label for="phone">Telefon</label> -->
+                   
                     <input type="tel" id="phone" name="phone" placeholder="Telefon" required>
-                    <!-- <label for="mail">E-mail</label> -->
+                    
                     <input type="email" id="mail" name="mail" placeholder="E-mail" required>
-                    <!-- <label for="subject">Temat</label> -->
+                    
                     <input type="text" id="subject" name="subject" placeholder="Temat">
-                    <!-- <label for="message">Wiadomość</label> -->
+                    
                     <input type="text" id="message" name="message" placeholder="Wiadomość" required>
                     <input type="submit" value="Wyślij">
                     <div style="display:none" class="thankyou_message">
@@ -342,7 +350,16 @@
 
             <a href="tel:+48572675106" class="btn-primary">Zadzwoń</a>
 
+            
         </div>
+        <div class="contact-icons">
+            <div class="mail"><a href="mailto:kontakt@mc-trade.pl"><img src="/icons/mail.svg" alt="mail"></a></div>
+
+            <div class="phone"><a href="tel:+48572675106"><img src="/icons/phone.svg" alt="phone"></a></div>
+
+            <div class="sms"><a href="sms://+48572675106"><img src="/icons/sms.svg" alt="sms"></a></div>
+        </div>
+
     </footer>
 
     <script src="/js/script.js"></script>

@@ -1,12 +1,26 @@
 var offerButtons = document.querySelectorAll(".card-description a");
 var offers = document.querySelectorAll(".offer-section__cards-card-details");
 
-var cardDetailsLeftArrows = document.querySelectorAll(".offer-section .offer-section__cards-card-details .card-details-header i");
+var cardDetailsLeftArrows = document.querySelectorAll(".offer-section .offer-section__cards-card-details .card-details-header a.close");
+
+var desktopScreen = window.matchMedia("(min-width: 1020px)");
+// var belowDesktopScreen = window.matchMedia("(max-width: 1024px)");
+
+var offerSection = document.querySelector("section.offer-section");
+var offerHeader = document.querySelector("section.offer-section offer-section__cards");
+var offerIntroduction = document.querySelector("section.offer-section offer-section__introduction");
+
+var backdrop = document.querySelector(".backdrop");
+
+var belowDesktopScreen = window.screen.availWidth;
+
+
 
 cardDetailsLeftArrows.forEach(element => {
     element.addEventListener('click', () => {
         offers.forEach(offer => {
             offer.classList.remove("flexit");
+            offerSection.classList.remove("fullheight");
         })
     })
 });
@@ -21,12 +35,34 @@ offerButtons.forEach(element => {
                 offers.forEach(element => {
                     element.classList.remove("flexit");
                 });
-                element.classList.toggle("flexit");
-                document.getElementsByClassName("flexit").focus();
+
+                if (desktopScreen.matches) {
+                    // offerSection.classList.toggle("fullheight");
+                    element.classList.toggle("flexit");
+                    document.getElementsByClassName("flexit").focus();
+
+
+                } else if (belowDesktopScreen) {
+                    element.classList.toggle("flexit");
+                    document.getElementsByClassName("flexit").focus();
+                    // offerSection.classList.remove("fullheight");
+                }
             }
         });
     })
 });
+
+
+
+function noLongerDesktop() {
+    if (belowDesktopScreen < 1025) {
+
+        offerSection.classList.remove("fullheight");
+        // offerSection.style.height = "100%";
+    }
+}
+
+noLongerDesktop();
 
 function closePrevious() {
     if (element) {
