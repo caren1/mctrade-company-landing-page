@@ -1,0 +1,31 @@
+{
+  "name": "mct-website",
+  "version": "1.0.0",
+  "description": "MC Trade company website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css",
+    "javasc": "-watch "
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caren1/mctrade-company-landing-page.git"
+  },
+  "keywords": [
+    "mctrade",
+    "company",
+    "landing",
+    "page"
+  ],
+  "author": "Wojciech Czarnocki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caren1/mctrade-company-landing-page/issues"
+  },
+  "homepage": "https://github.com/caren1/mctrade-company-landing-page#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
