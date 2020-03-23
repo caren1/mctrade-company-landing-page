@@ -1,1 +1,1 @@
-![Alt text](img\infographic.png?raw=true "Infographic")
+![Alt text](\img\infographic.png?raw=true "Infographic")
