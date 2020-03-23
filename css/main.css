@@ -251,7 +251,6 @@ main {
 
 /* ABOUT COMPANY-SECTION */
 .about-company-section {
-  height: 100%;
   background-color: #041b2d;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(4, 27, 45, 0.85)), to(rgba(4, 27, 45, 0.85))), url("../img/test1.jpg");
   background: linear-gradient(rgba(4, 27, 45, 0.85), rgba(4, 27, 45, 0.85)), url("../img/test1.jpg");
@@ -374,7 +373,6 @@ main {
 
 /* OFFER-SECTION */
 .offer-section {
-  height: 100%;
   background-color: #041b2d;
   padding: 5em 3.5em;
   text-align: center;
