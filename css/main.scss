@@ -1083,7 +1083,7 @@ i {
     // right: 25px;
     z-index: 10;
     display: block;
-  
+
     i {
       border: solid white;
       border-width: 0 2px 2px 0;
@@ -1095,22 +1095,22 @@ i {
       left: 10px;
     }
   }
-  
+
   .top {
     margin: auto;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
-  
+
   .backtotop:hover {
     background-color: $white !important;
-  
+
     i {
       border: solid $light-beige;
       border-width: 0 2px 2px 0;
     }
   }
-  
+
 }
 
 .projects {
@@ -1157,7 +1157,7 @@ i {
       // border: 1px solid $light-beige;
 
 
-      
+
 
       .project-info {
         // max-width: 50%;
@@ -1199,7 +1199,7 @@ i {
 
 
         .photo {
-          
+
           height: 150px;
           width: 150px;
           margin: 5px;
@@ -1215,14 +1215,14 @@ i {
     @media screen and (max-width: 1440px) {
       .project-gallery-container {
         max-width: 70% !important;
-      
+
       }
     }
 
     @media screen and (max-width: 1215px) {
       .project-gallery-container {
         max-width: 80% !important;
-      
+
       }
     }
 
@@ -1232,9 +1232,10 @@ i {
       }
     }
 
-    @media screen and (max-width: 1023px){
+    @media screen and (max-width: 1023px) {
       main .projects {
         margin-top: 0 !important;
+
         .wrapper {
           margin-top: 0 !important;
         }
@@ -1247,11 +1248,13 @@ i {
         .project-heading {
           text-align: center;
         }
-        .project-subheading{
+
+        .project-subheading {
           text-align: center;
         }
       }
-      .photo{
+
+      .photo {
         width: 100px !important;
         height: 100px !important;
       }
@@ -1261,17 +1264,18 @@ i {
       .project-gallery-container {
         max-width: 100% !important;
       }
-      .photo{
+
+      .photo {
         width: 80px !important;
         height: 80px !important;
       }
 
-      .project-heading{
+      .project-heading {
         font-size: 2.5em !important;
       }
     }
 
-    @media screen and (max-width:530px){
+    @media screen and (max-width:530px) {
       .project-gallery-container {
         padding: 1em !important;
       }
@@ -1283,4 +1287,3 @@ i {
     }
   }
 }
-
