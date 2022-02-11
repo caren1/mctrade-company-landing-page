@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/caren1/mctrade-company-landing-page#readme",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
